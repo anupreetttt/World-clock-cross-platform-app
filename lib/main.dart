@@ -11,20 +11,16 @@ class homeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Hello world'),
+        title: Text('Hello worlsdfd'),
         centerTitle: true,
         backgroundColor: Colors.teal[600],
       ),
-      body: const Center(
-        child: Text(
-          'Hello',
-          style: TextStyle(
-            fontSize: 30.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.red,
+      body: Center(
+        child: Icon(
+          Icons.airport_shuttle,
+          color: Colors.red,
+          size: 100,
 
-          ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
